@@ -24,6 +24,7 @@ body>div>div {
     background-color:ghostwhite;
     width: 100%;
     position:fixed;
+    z-index: 10;
 }
 
 .header-blocked {
