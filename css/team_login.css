@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login-wrap{
+    width: 100%;
+}
+.login-top{
+    padding-top: 200px;
+    margin: 0 auto;
+}
+.login-top>h2{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.login-content{
+    margin: 0 auto;
+    width: 1200px;
+}
+.search-box{
+    width: 600px;
+    margin: 0 auto;
+}
+.search-box input{
+    border: 0.5px solid #3e3d3c;
+    margin-top: 10px;
+    margin-bottom: 8;
+    width: 600px;
+    height: 35px;
+}
+.btn-box{
+    width: 600px;
+    margin: 0 auto
+}
+.btn-box input{
+    background-color: #aba135;
+    color: #fff;
+    margin-top: 8px;
+    width: 602px;
+    height: 45px;
+    cursor: pointer;
+}
+.save-check{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.line{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 0.5px solid #3e3d3c;
+}
+.link-wrap{
+    width: 600px;
+    margin: 0 auto;
+}
+.link-wrap>ul{
+    width: 600px;
+    overflow: hidden;
+}
+.link-wrap>ul>li{
+    float: left;
+    list-style-type: none;
+}
+.link-wrap>ul>li>a{
+    width: 170px;
+    height: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 45px;
+    padding: 1px 0;
+    display: block;
+    float: left;
+    border: 1px solid #3e3d3c;
+    color: #3e3d3c;
+    text-decoration: none;
+}
+.link-wrap>ul>li>a:first-child{
+    background-color: #666666;
+    color: #fff;
+    margin-left: 15px;
+}
+.sns-login>h3{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.login-route{
+    width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    list-style-type: none;
+}
+.login-route>ul>li>img{
+    float: left;
+}
+.login-route>ul>li{
+    float: left;
+    width: 600px;
+    height: 45px;
+}
+.login-route>ul>li>a{
+    background-color: #f0f0f0;
+    display: block;
+    line-height: 40px;
+    border: 0.5px solid #3e3d3c;
+    text-indent: 1%;
+    text-decoration: none;
+    color: #3e3d3c;
+}
+.order-search>h3{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.order-search>p{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0.8em;
+    color: #666666;
+}
+.btn-box>input{
+    margin-bottom: 7px;
+}
+.btn-box>p{
+    width: 600px;
+    margin: 0 auto;
+    font-size: 13px;
+    margin-bottom: 200px;
+}

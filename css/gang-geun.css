@@ -1,0 +1,170 @@
+.content-wrap>* {
+    text-align: center;
+}
+
+.center_h2 {
+    font-size: 38px;
+    line-height: 100%;
+    margin-bottom: 40px;
+}
+
+.center_h4 {
+    font-size: 22px;
+}
+
+.coupon-wrap, prize-wrap {
+    background-color: floralwhite;
+}
+
+div[class^="coupon-box-"] {
+    width: 330px;
+    margin: 10px;
+    border-top-right-radius: 80px;
+    display: inline-block;
+}
+
+.coupon-box-blue {
+    background-color: lightblue;
+}
+
+.coupon-box-orange {
+    background-color:darksalmon;
+}
+
+.coupon-box-white {
+    background-color:ghostwhite;
+}
+
+div[class^="coupon-box-"]{
+    padding: 20px;
+}
+
+div[class^="coupon-box-"]>div.inner-coupon-box {
+    width: 280px;
+    border-right: 1px solid lightslategray;
+    text-align: left;
+    display:inline-block;
+}
+
+div[class^="coupon-box-"]>a>div.download_coupon {
+    line-height: 340%;
+    font-size: 46px;
+    float:right;
+}
+
+div[class*="-box-"]>*>.box_h1 {
+    font-size: 44px;
+    line-height: 200%;
+}
+
+div[class*="-box-"]>*>p[class^="box_h4"] {
+    font-size: 15px;
+    line-height: 120%;
+}
+
+p[class$="-blur"] {
+    color:lightslategray;
+}
+
+.go_to_exh_button {
+    display: inline-block;
+}
+
+.go_to_exh_button>div {
+    background-color: transparent;
+    width: 140px;
+    margin-top: 14px;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 13px;
+    overflow: hidden;
+}
+
+.go_to_exh_button>div:hover {
+    background-color: black;
+    color: white;
+}
+
+#recieve_all {
+    background-color: black;
+    color: white;
+    width: 400px;
+    height: 60px;
+    line-height: 350%;
+    margin: 0 auto;
+}
+
+.caution-wrap>div {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 12px;
+}
+
+#roulette-game {
+    border: none;
+    background-color: transparent;
+}
+
+#roulette-game:focus {
+    animation: rouletting 1s linear 3, rouletting 0.5s linear 4, rouletting 0.25s linear 4;
+}
+
+@keyframes rouletting {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.prize-box {
+    background-color:honeydew;
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.prize-box>img {
+    max-height: 180px;
+    margin: 10px;
+}
+
+.main-wrap {
+    margin-top: 40px;
+}
+
+.main-wrap>div {
+    margin: 10px;
+}
+
+.video-desc>p {
+    padding: 20px;
+    text-align: left;
+    color:silver;
+}
+
+.hover-to-larger{
+    transition-duration: 0.35s;
+}
+
+.hover-to-larger:hover {
+    transform: scale(1.2,1.2);
+    transition-duration: 0.5s;
+}
+
+.content-wrap>* {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 30px;
+}
+
+div[class^=coupon-wrap-]>* {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,80 @@
+.top-wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+.wrap{
+    margin: 0 auto;
+}
+.top-img{
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.top-img>img{
+    float: left;
+    display: block;
+    width: 1200px;
+    height: 300px;
+}
+.content{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+.line{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 0.5px solid #3e3d3c;
+}
+.review{
+    overflow: hidden;
+}
+.costomer-review{
+    border: 1px solid #e0e0e0;
+    width: calc(1200px/4);
+    float: left;
+    height: 280px;
+    box-sizing: border-box;
+    padding: 30px;
+    cursor: pointer;
+}
+.costomer-review>a{
+    text-decoration: none;
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    color: #000;
+}
+.img-box{
+    width: 90%;
+    margin: 0 auto;
+}
+.img-box>img{
+    width: 240px;
+    height: 150px;
+}
+.info {
+    width: 70%;
+    margin: 0 auto;
+}
+.spot{
+    float: left;
+    width: 230px;
+    height: 35px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.eval-area>span{
+    font-size: 10px;
+    color: #999;
+}
+.star>img{
+    margin-top: 10px;
+}
+
+.line2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 0.5px solid #3e3d3c;
+    margin-bottom: 200px;
+}

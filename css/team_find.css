@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.find-wrap{
+    width: 1200px;
+}
+.find-id{
+    overflow: hidden;
+    margin: 0;
+}
+.find-header{
+    margin: 0 auto;
+}
+.find-header>h2{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.select{
+    width: 600px;
+    margin: 0 auto;
+}
+.select>input{
+    margin: 0 auto;
+    display: none;
+}
+.select>input + label{
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+    width: 300px;
+    padding: 10px;
+    color: #333333;
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+}
+.select>input + label:hover{
+    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2);
+}
+.select>input:checked + label{
+    background-color: transparent;
+    color: #333333;
+}
+.way1,.way2{
+    display: none;
+    margin-bottom: 200px;
+}
+#findway1:checked~.way1,#findway2:checked~.way2{
+    display: block;
+}
+.img-space{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.img-space>img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.by-mail{
+    overflow: hidden;
+    margin-top: 30px;
+    float: left;
+}
+.by-mail>input{
+    height: 35px;
+    margin: 0 auto;
+    width: 600px;
+    display: block;
+    margin-bottom: 10px;
+}
+.btn-box{
+    width: 600px;
+    margin: 0 auto
+}
+.btn-box input{
+    background-color: #333333;
+    color: #fff;
+    margin-top: 8px;
+    padding: 1px;
+    width: 602px;
+    height: 45px;
+    cursor: pointer;
+}
+.line{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 0.5px solid #3e3d3c;
+}
+.link-wrap{
+    width: 600px;
+    margin: 0 auto;
+}
+.link-wrap>ul{
+    width: 600px;
+    overflow: hidden;
+}
+.link-wrap>ul>li{
+    float: left;
+    list-style-type: none;
+}
+.link-wrap>ul>li>a{
+    width: 270px;
+    height: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 45px;
+    padding: 1px 0;
+    display: block;
+    float: left;
+    border: 1px solid #3e3d3c;
+    color: #3e3d3c;
+    text-decoration: none;
+    font-size: 13px;
+}
+.link-wrap>ul>li>a:last-child{
+    background-color: #aba135;
+    color: #fff;
+    margin-left: 15px;
+}
+.by-phone{
+    overflow: hidden;
+    margin-top: 30px;
+    float: left;
+}
+.by-phone>input{
+    height: 35px;
+    margin: 0 auto;
+    width: 600px;
+    display: block;
+    margin-bottom: 10px;
+}
+.find-pw{
+    overflow: hidden;
+    margin: 0;
+}
+.by-id{
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.by-id>input{
+    height: 35px;
+    margin: 0 auto;
+    width: 600px;
+    display: block;
+    margin-bottom: 10px;
+}
+.again>p{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.again>p>a{
+    color: #3e3d3c;
+}
+.go-findid>a{
+    margin: 0 auto;
+    background-color: #aba135;
+    display: block;
+    width: 150px;
+    height: 45px;
+    margin: 0 auto;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+}
+.go-findid{
+    margin-bottom: 200px;
+}
