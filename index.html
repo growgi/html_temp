@@ -8,9 +8,19 @@
     <title>37년 전통의 소파브랜드 - JAKOMO</title>
     <link rel="stylesheet" href="css/common.css">
     <!-- 필요한 css는 여기에 추가하세요. 단, 파일명이 common.css로 동일해서는 안 됩니다.-->
+
+    <script>
+        let topbutton = document.getElementById("gototop");
+        // 버튼을 누르면 맨 위로 즉시 스크롤
+        function gotoTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 </head>
 
 <body>
+    <button onclick="gotoTop()" id="gototop" title="맨 위로">＾</button>
     <div class="header-wrap">
         <div class="header-top">
             <div class="left-top-wrap"><a href="#">로그인</a> | <a href="#">회원가입</a> | <a href="#">장바구니</a> | <a href="coupon.html">쿠폰존</a></div>
