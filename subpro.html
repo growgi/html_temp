@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>37년 전통의 소파브랜드 - JAKOMO</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/project3.css">
+
+    <script>
+        let topbutton = document.getElementById("gototop");
+        // 버튼을 누르면 맨 위로 즉시 스크롤
+        function gotoTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</head>
+
+<body>
+    <button onclick="gotoTop()" id="gototop" title="맨 위로">＾</button>
+    <div class="header-wrap">
+        <div class="header-top">
+            <div class="left-top-wrap"><a href="team_login.html">로그인</a> | <a href="자코모회원가입1.html">회원가입</a> | <a href="payment.html">장바구니</a> | <a href="coupon.html">쿠폰존</a></div>
+            <div class="header-bottom">
+                <div class="logo"><a href="index.html"><img src="images/logo.png" width="100%"></a></div>
+                <div class="menu-wrap">
+                    <div class="top-menu">
+                        <ul>
+                            <li class="top-menu-button"><a href="#">브랜드</a>
+                                <div class="submenu">
+                                    <div><a href="#">숨겨진메뉴</a></div>
+                                    <div><a href="#">숨겨진메뉴</a></div>
+                                    <div><a href="#">숨겨진메뉴</a></div>
+                                </div>
+                            </li>
+                            <li class="top-menu-button"><a href="#">전체상품</a>
+                                <div class="submenu">
+                                    <div><a href="mainpro.html">전체보기</a></div>
+                                    <div><a href="#">가죽소파</a></div>
+                                    <div><a href="#">패브릭소파</a></div>
+                                </div>
+                            </li>
+                            <li class="top-menu-button"><a href="#">기획전</a>
+                                <div class="submenu"></div>
+                            </li>
+                            <li class="top-menu-button"><a href="#">고객후기</a>
+                                <div class="submenu">
+                                    <div><a href="team_review.html">포토후기</a></div>
+                                    <div><a href="team_review.html">SNS후기</a></div>
+                                    <div><a href="#">후기사은품 신청</a></div>
+                                </div>
+                            </li>
+                            <li class="top-menu-button"><a href="#">쇼룸안내</a>
+                                <div class="submenu">
+                                    <div><a href="#">직영 플래그쉽</a></div>
+                                    <div><a href="#">백화점</a></div>
+                                    <div><a href="#">에이스퀘어</a></div>
+                                </div>
+                            </li>
+                            <li class="top-menu-button"><a href="#">이벤트</a>
+                                <div class="submenu">
+                                    <div><a href="event.html">이벤트</a></div>
+                                    <div><a href="coupon.html">쿠폰존</a></div>
+                                    <div><a href="roulette.html">룰렛존</a></div>
+                                </div>
+                            </li>
+                        </ul>
+                        </ul>
+                    </div>
+                </div>
+                <div class="search-bar">
+                    <form action="search.html" method="get">
+                        <fieldset>
+                            <input type="text" name="keyword" id="keyword" placeholder="검색어 입력">
+                            <button type="submit" id="submit-button"><img src="images/search-icon.png"
+                                    style="width: 100%;"></button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-blocked"></div>
+    <div class="content-wrap">
+        <div class="content-top">
+            <div class="top-title">
+                <img src="https://igaboro.kr/data/goods/22/11/44/1000964057/1000964057_main_018.jpg" alt="이미지1">
+            </div>
+            <div class="top-name">
+                <h1>상품명</h1>
+            </div>
+        </div>
+        <div class="content-mid">
+            <div class="option" >
+                <table>
+                    <tr class="price">
+                        <th>판매가</th>
+                        <th>2,850,000원</th>
+                    </tr>
+                    <tr class="discount">
+                        <th>할인율</th>
+                        <th>5%</th>
+                    </tr>
+                    <tr class="price">
+                        <th>구매가</th>
+                        <th>2,850,000원</th>
+                    </tr>
+                    <tr class="text">
+                        <th colspan="2"><span>가죽</span></th>
+                    </tr>
+                    <tr class="form">
+                        <th colspan="2">
+                            <select name="option1">
+                                <option value="0">가죽</option>
+                                <option value="1">일반가죽</option>
+                                <option value="2">고급가죽 (+300,000원)</option>
+                            </select>
+                        </th>
+                    </tr>
+                    <tr class="text">
+                        <th colspan="2"><span>사이즈</span></th>
+                    </tr>
+                    <tr class="form">
+                        <th colspan="2">
+                            <select name="size">
+                                <option value="0">사이즈</option>
+                                <option value="1">미디움</option>
+                                <option value="2">라지</option>
+                            </select>
+                        </th>
+                    </tr>
+                    <tr class="text">
+                        <th colspan="2"><span>색상</span></th>
+                    </tr>
+                    <tr class="form">
+                        <th colspan="2"> 
+                            <select name="color">
+                                <option value="0">색상</option>
+                                <option value="1">레드</option>
+                                <option value="2">버건디</option>
+                                <option value="3">크림아이보리</option>
+                                <option value="4">그레이</option>
+                                <option value="5">블랙</option>
+                                <option value="6">블루</option>
+                                <option value="7">화이트</option>
+                            </select>
+                        </th>
+                    </tr>
+                    <tr class="text">
+                        <th colspan="2"><span>수량</span></th>
+                    </tr>
+                    <tr class="form">
+                        <th colspan="2"> 
+                            <select name="count">
+                                <option value="0">수량</option>
+                                <option value="1">1개</option>
+                                <option value="2">2개</option>
+                                <option value="3">3개</option>
+                                <option value="4">4개</option>
+                                <option value="5">5개</option>
+                                <option value="6">6개</option>
+                                <option value="7">7개</option>
+                                <option value="8">8개</option>
+                                <option value="9">9개</option>
+                                <option value="10">10개</option>
+                                <option value="20">20개</option>
+                            </select>
+                        </th>
+                    </tr>
+                    <tr class="choise">
+                        <th colspan="2">
+                            <input type="button" value="장바구니">
+                            <input type="button" value="바로구매">
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="all1">
+                <a href="#all">상세정보</a>
+                <a href="#all2">취소/배송안내</a>
+                <a></a>
+            </div>
+            <div id="all">
+            <img src="https://igaboro.kr/jkm/product/0000_info/jm_sizeview.jpg">
+            <img src="https://igaboro.kr/jkm/product/0000_info/jm_sizeview.jpg" alt="">
+            <img src="https://igaboro.kr/jkm/product/0000_info//jm_guide_05.jpg" alt="">
+            <img src="https://igaboro.kr/prd/jakomo/notice.jpg" alt="">
+            <img src="https://igaboro.kr/prd/main_product_2022/1668_sofa_rene_point1.jpg" alt="">
+            <img src="https://igaboro.kr/prd/main_product_2022/1668_sofa_rene_360view.gif" alt="">
+            <img src="https://igaboro.kr/prd/jakomo/point_leather_shrunken.jpg" alt="">
+            <img src="https://igaboro.kr/prd/jakomo/point_materials1.jpg" alt="">
+            <img src="https://igaboro.kr/prd/main_product_2022/1668_sofa_rene_color.jpg" alt="">
+            <img src="https://igaboro.kr/prd/jakomo/info1_caution.jpg" alt="">
+            <img src="https://igaboro.kr/prd/jakomo/info3_q&a.jpg" alt="">
+        </div>
+        <div class="all2">
+            <a href="#all">상세정보</a>
+            <a href="#all2">취소/배송안내</a>
+            <a></a>
+        </div>
+        <div id="all2">
+            <h3>취소,교환 및 반품안내</h3>
+            <span>취소 및 교환 안내</span>
+            <pre>자코모 소파는 다음의 제품의 디자인별 · 색상별 · 가죽 종류별 · 고객 요청사항 등 주문요건에 따라 각각 완성되는 제품이 달라지는 
+특이사항으로, 고객이 제품을 주문한 날(결제가 완료된 날)로부터 3일 후 제작에 착수하는 '주문제작상품'입니다.
+근거법률(전자상거래 등에서의 소비자보호에 관한 법률 제17조 제2항 제6호, 동법 제19조, 동법 시행령 제21조)에 따라 
+‘청약의 철회가 제한되는 재화'에 해당하므로, 주문청약 취소 요청 시 고객님께 위약금이 부과되거나 교환 · 반품이 불가할 수 있으니,
+구매 결정 이전, 제품의 온라인 상 상세페이지의 내용(제품 특성 및 명시사항 등)을 반드시 확인해주시기 바랍니다.
+                
+※ 단, 안마의자는 안마의자 상세페이지에 명시된 정책에 따릅니다. 
+                
+                
+1. 계약해제에 따른 위약금의 부과 없이 취소 :
+                
+- 고객이 제품을 주문한 날(결제가 완료된 날)로부터 3일이 경과되지 아니할 때.
+                
+
+                
+2. 계약해제에 따른 위약금 (구매가의 10%) 부과 :
+                
+- 고객이 제품을 주문한 날(결제가 완료된 날)로부터 3일이 경과된 후(4일째)부터 배송당일이 되기 전까지의 기간에, 취소를 요청하는 경우.
+                
+
+                
+3. 계약해제에 따른 위약금 (구매가의 10% + 왕복배송실비) 부과 :
+                
+- 배송 당일, 제품이 출고된 이후에 취소요청을 할 경우.
+                
+- 배송 당일(제품 출고 이후), 설치공간의 협소, 높이 낮음, 엘리베이터 크기 제한 등 설치공간과 그 주변의 
+특이사항으로 설치가 어렵거나 불가능할 경우.
+                
+- 배송 당일(제품 출고 이후), 온라인 상 상세페이지에 기재된 내용을 숙지하지 않고 교환 및 반품을 요청할 경우.
+                
+- 배송 당일(제품 출고 이후), 천연가죽 고유의 특성 (부위별 색상 · 엠보 · 결의 불일치, 초기 가죽 냄새 등),  
+혹은 제품에 사용된 자재 본연의 특성 등을 이유로 교환 및 반품을 요청할 경우.
+                
+- 배송 당일(제품 출고 이후), 사이즈 측정방식 및 수작업 제작과정에 따른 제품 표기스펙과의 허용 오차(±3cm 이하) 
+상태, 미세한 단차를 근거로 한 교환 및 반품 요청의 경우.
+                
+- 제품 설치 후 이상 유무를 고객분께서 확인하고, 확인란에 체크를 완료한 날로부터 2일 이내 교환 및 반품을 요청하는 경우
+
+
+                
+4. 교환 및 반품 불가 : 아래의 사유에 해당할 때
+                
+- 제품 설치 후 이상 유무를 고객분께서 확인하고, 확인란에 체크를 완료한 날로부터 2일이 경과된 후(3일째) 교환 및 반품을 요청하는 경우
+                
+- 제품의 설치 후 소비자의 귀책에 의해 제품이 훼손된 경우
+                
+- 소파의 구성 품목 일부만을 반품 요청하는 경우 (스툴, 1인용피스 등)
+                
+                
+                
+※ 일부 특가 상품의 경우, 인수 후에는 제품 하자나 오배송의 경우를 제외한 고객님의 단순변심에 의한 교환, 반품이 불가능할 수 있사오니,
+ 각 상품의 상품상세정보를 꼭 참조하십시오.  
+                
+                
+※ 단, 안마의자는 안마의자 상세페이지에 명시된 정책에 따릅니다. </pre>
+                <img src="../images/반품.png" alt="" class="img">
+                <img src="../images/배송안내.png" alt="" class="img">
+        
+        </div>
+    </div>
+
+
+</div>
+    <div class="bottom-wrap">
+        <div class="bottom-menu-wrap">
+            <div class="bottom-menu">
+                <ul>
+                    <li class="bottom-menu-button"><a href="#">회사소개</a></li>
+                    <li class="bottom-menu-button"><a href="promotion.html">광고/제휴문의</a></li>
+                    <li class="bottom-menu-button"><a href="#">개인결제창</a></li>
+                    <li class="bottom-menu-button"><a href="#">샘플신청</a></li>
+                    <li class="bottom-menu-button"><a href="#">무이자할부안내</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-info-wrap" style="clear: both;">
+            <div calss="info-left" style="width: 50%;"><img src="images/logo_white.png" width="200px">
+                <p class="info_gray">경기도 남양주시 오남읍 진건오남로929번길 8 (경기도 남양주시 오남읍 양지리 699-5)</p>
+                <p class="info_gray">법인명(상호) : (주)자코모 대표 : 박경분 사업자등록번호 : 132-81-62165 사업자번호조회 통신판매업신고번호 : 2020-진접오남-0219</p>
+                <p class="info_gray">개인정보보호책임자 : 박유신 대표번호 : <b>1588-6007</b> 팩스번호 : 031-527-8618</p>
+            </div>
+            <div calss="info-center" style="width: 25%;">
+                <p class="info_gray_big">고객센터</p>
+                <p class="info_white_big">1588-6007</p>
+                <p class="info_white">평일 09:00 ~ 17:30</p>
+                <p class="info_white">점심 12:00 ~ 13:00</p>
+                <p class="info_gray">* 주말, 공휴일은 휴무 입니다.</p>
+                <p class="info_gray">* 1월 1일, 명절(설, 추석)전날, 당일 제외 연중무휴</p>
+            </div>
+            <div calss="info-right" style="width: 25%;">
+                <p class="info_gray_big">계좌번호</p>
+                <p class="info_white_big">164-910017-44504</p>
+                <p class="info_white">은행 하나은행</p>
+                <p class="info_white">예금주 ㈜자코모</p>
+                <p class="info_gray">* 입금 시 주문하신 분 성함 반드시 기재</p>
+            </div>
+        </div>
+    </div>
+    <div calss="footer-wrap">
+        <div class="footer-bottom">
+            <div class="copyright">Copyright (c) 2023 JAKOMO Co,. Ltd All Rights Reserved.</div>
+            <div class="footer-menu"><a href="#"><b>이용약관</b></a> | <a href="#">이용안내</a> | <a href="#">개인정보처리방침</a></div>
+        </div>
+    </div>
+</body>
+
+</html>
