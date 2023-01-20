@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>37년 전통의 소파브랜드 - JAKOMO</title>
     <link rel="stylesheet" href="css/common.css">
-    <!-- 필요한 css는 여기에 추가하세요. 단, 파일명이 common.css로 동일해서는 안 됩니다.-->
+    <link rel="stylesheet" href="css/gang-geun.css">
 
     <script>
         let topbutton = document.getElementById("gototop");
@@ -85,28 +85,58 @@
     </div>
     <div class="header-blocked"></div>
     <div class="content-wrap">
-        <link rel="stylesheet" href="css/gang-geun.css">    
-        <script>
-            function alertMessage(type) {
-                alert(type+"용 앱은 아직 준비되지 않았습니다.");
-            }
-            </script>
-        <div class="main-wrap">
-            <div style="float: left;"><iframe width="720" height="360" src="https://www.youtube.com/embed/RquCn9Gb5JU" title="이런 소파, 이런 여유 | 결국, 자코모 | 모델 현빈 | 30s ver. | JAKOMO[자코모]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-            <div class="video-desc" style="float: left; padding-top: 80px;">
-                <p style="font-size: 42px; font-weight: bold;">JAKOMO</p>
-                <p>당신의 온전한 휴식을 위해<br>다르게, 더 바르게 만듭니다</p>
+        <div class="intro">
+            <p class="center_h2">자코모 회원이라면<br>받을 수 있는 특별한 혜택!</p>
+            <br>
+            <p class="center_h4">매일 매일 자코모에 방문만 해도 경품이 펑펑!</p>
+        </div>
+        <div class="roulette-wrap" style="width:800px; overflow:hidden;">
+            <button id="roulette-game" style="float:left;"><img src="images/roulette.png" width="400px"></button>
+            <div class="roulette-desc" style="float:left; padding: 30px;">게임 설명</div>
+        </div>
+        <div class="prize-wrap" style="clear: both; margin-top: 30px; margin-bottom: 30px;">
+            <p class="center_h2">경품 목록</p>
+            <div class="prize-box">
+                <img src="images/br31_cup.png">
+                <p class="box_h1">경품이름</p>
+                <p class="box_h4">남은 수량</p>
+                <p class="box_h4-blur">수령일로부터 30일까지</p>
             </div>
-            <div style="width: 100%; float: left; overflow: clip;"><img src="images/wallpaper_bn_2301.jpg" usemap="#image_map">
-                <map name="image_map">
-                <area onclick="alertMessage('PC')" coords="45,266,282,325" shape="rect" style="cursor:pointer;">
-                <area onclick="alertMessage('모바일')" coords="307,266,543,325" shape="rect" style="cursor:pointer;">
-                </map>
-                </div>
-            <div style="width: 480px; height: 330px; float: left; overflow: clip;"><img class="hover-to-larger" src="images/main_bottom_img01.jpg"></div>
-            <div style="margin-right: -10px; width: 700px; float: right;">
-                <div style="height: 160px; overflow: clip;"><img class="hover-to-larger" src="images/main_bottom_img02.jpg" width="100%"></div>
-                <div style="height: 160px; overflow: clip; margin-top: 10px;"><img class="hover-to-larger" src="images/main_bottom_img03.jpg" width="100%"></div>
+            <div class="prize-box">
+                <img src="images/br31_cone.png">
+                <p class="box_h1">경품이름</p>
+                <p class="box_h4">남은 수량</p>
+                <p class="box_h4-blur">수령일로부터 30일까지</p>
+            </div>
+            <div class="prize-box">
+                <img src="images/coupon1000p.png">
+                <p class="box_h1">경품이름</p>
+                <p class="box_h4">남은 수량</p>
+                <p class="box_h4-blur">수령일로부터 30일까지</p>
+            </div>
+            <div class="prize-box">
+                <img src="images/starbucks-coffee.png">
+                <p class="box_h1">경품이름</p>
+                <p class="box_h4">남은 수량</p>
+                <p class="box_h4-blur">수령일로부터 30일까지</p>
+            </div>
+            <div class="prize-box">
+                <img src="images/starbucks-latte.png">
+                <p class="box_h1">경품이름</p>
+                <p class="box_h4">남은 수량</p>
+                <p class="box_h4-blur">수령일로부터 30일까지</p>
+            </div>
+            <div class="prize-box">
+                <img src="images/free-delivery.png">
+                <p class="box_h1">경품이름</p>
+                <p class="box_h4">남은 수량</p>
+                <p class="box_h4-blur">수령일로부터 30일까지</p>
+            </div>
+        </div>
+        <div style="background-color:gainsboro; margin-bottom: 0; overflow: hidden;">
+            <div class="caution-wrap" style="width:440px; margin: 0 auto;">
+                <div style="width:100px; float:left; font-weight: bold;">유의사항</div>
+                <div style="width:320px; float:left; text-align: left;">중복 당첨 가능합니다.<br>무료배송 쿠폰은 당첨일로부터 30일 이내에만 사용가능합니다.<br>금액권·기프티콘은 2023/3/2에 일괄 발송됩니다.<br>제세공과금 10%는 경품 당첨자가 부담합니다.</div>
             </div>
         </div>
     </div>
