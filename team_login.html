@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>37년 전통의 소파브랜드 - JAKOMO</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/team_login.css">
+
+    <script>
+        let topbutton = document.getElementById("gototop");
+        // 버튼을 누르면 맨 위로 즉시 스크롤
+        function gotoTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</head>
+
+<body>
+    <button onclick="gotoTop()" id="gototop" title="맨 위로">＾</button>
+    <div class="header-wrap">
+        <div class="header-top">
+            <div class="left-top-wrap"><a href="team_login.html">로그인</a> | <a href="자코모회원가입1.html">회원가입</a> | <a href="payment.html">장바구니</a> | <a href="coupon.html">쿠폰존</a></div>
+            <div class="header-bottom">
+                <div class="logo"><a href="index.html"><img src="images/logo.png" width="100%"></a></div>
+                <div class="menu-wrap">
+                    <div class="top-menu">
+                        <ul>
+                            <li class="top-menu-button"><a href="#">브랜드</a>
+                                <div class="submenu">
+                                    <div><a href="#">숨겨진메뉴</a></div>
+                                    <div><a href="#">숨겨진메뉴</a></div>
+                                    <div><a href="#">숨겨진메뉴</a></div>
+                                </div>
+                            </li>
+                            <li class="top-menu-button"><a href="#">전체상품</a>
+                                <div class="submenu">
+                                    <div><a href="mainpro.html">전체보기</a></div>
+                                    <div><a href="#">가죽소파</a></div>
+                                    <div><a href="#">패브릭소파</a></div>
+                                </div>
+                            </li>
+                            <li class="top-menu-button"><a href="#">기획전</a>
+                                <div class="submenu"></div>
+                            </li>
+                            <li class="top-menu-button"><a href="#">고객후기</a>
+                                <div class="submenu">
+                                    <div><a href="team_review.html">포토후기</a></div>
+                                    <div><a href="team_review.html">SNS후기</a></div>
+                                    <div><a href="#">후기사은품 신청</a></div>
+                                </div>
+                            </li>
+                            <li class="top-menu-button"><a href="#">쇼룸안내</a>
+                                <div class="submenu">
+                                    <div><a href="#">직영 플래그쉽</a></div>
+                                    <div><a href="#">백화점</a></div>
+                                    <div><a href="#">에이스퀘어</a></div>
+                                </div>
+                            </li>
+                            <li class="top-menu-button"><a href="#">이벤트</a>
+                                <div class="submenu">
+                                    <div><a href="event.html">이벤트</a></div>
+                                    <div><a href="coupon.html">쿠폰존</a></div>
+                                    <div><a href="roulette.html">룰렛존</a></div>
+                                </div>
+                            </li>
+                        </ul>
+                        </ul>
+                    </div>
+                </div>
+                <div class="search-bar">
+                    <form action="search.html" method="get">
+                        <fieldset>
+                            <input type="text" name="keyword" id="keyword" placeholder="검색어 입력">
+                            <button type="submit" id="submit-button"><img src="images/search-icon.png"
+                                    style="width: 100%;"></button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-blocked"></div>
+    <div class="content-wrap">
+
+
+    <!-- content 영역 입니다.-->
+    <!--로그인-->
+    <div class="login-wrap">
+        <div class="login-top">
+            <h2>회원 로그인</h2>
+        </div>
+        <div class="login-content">
+            <form action="login.html" name="post" id="login-frm1">
+                <div class="search-box">
+                    <input type="text" name="search" placeholder="아이디" value="">
+                    <input type="password" name="pw" placeholder="비밀번호" value="">
+                </div>
+                <div class="btn-box">
+                    <input type="submit" value="로그인">
+                </div>
+                <div class="save-check">
+                    <label class="id-save">
+                        <input type="checkbox" name="check">
+                        아이디 저장
+                    </label>
+                    <div class="line"></div>
+                </div>
+            </form>
+            <div class="link-wrap">
+                <ul>
+                    <li>
+                        <a href="자코모회원가입1">회원가입</a>
+                        <a href="index_find_id.html">아이디 찾기</a>
+                        <a href="index_find_pw.html">비밀번호 찾기</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sns-login">
+                <h3>SNS 간편 로그인</h3>
+            </div>
+                <form action="login.html" name="post" id="login-frm2">
+                    <div class="login-route">
+                        <ul>
+                            <li>
+                                <img src="image/payco.jpg" width="41" height="41">
+                                <a href="https://id.payco.com/oauth2.0/authorize?response_type=code&client_id=3RDc84Jld8lWRpdwySX6&serviceProviderCode=FRIENDS&redirect_uri=https%3A%2F%2Fwww.jakomo.co.kr%2Fmember%2Fpayco%2Fpayco_login.php%3FpaycoType%3Dundefined%26returnUrl%3Dhttps%253A%252F%252Fwww.jakomo.co.kr%252Fmember%252Ffind_password.php%26referer%3Dhttps%3A%2F%2Fwww.jakomo.co.kr%2Fmember%2Flogin.php%26paycoType%3Dundefined&state=401672">PAYCO 아이디 로그인</a>
+                            </li>
+                            <li>
+                                <img src="image/naver.png" width="41" height="41">
+                                <a href="https://nid.naver.com/oauth2.0/authorize?response_type=code&client_id=M0c2OsYNBWM_yQqys5Yd&redirect_uri=https%3A%2F%2Fwww.jakomo.co.kr%3A443%2Fmember%2Fnaver%2Fnaver_login.php%3FnaverType%3Dundefined%26returnUrl%3Dhttps%253A%252F%252Fwww.jakomo.co.kr%252Fmember%252Ffind_password.php%3Freferer%3Dhttps%3A%2F%2Fwww.jakomo.co.kr%2Fmember%2Flogin.php&state=1317ab12eb16cca22584832d1a93ccec">네이버 아이디 로그인</a>
+                            </li>
+                            <li>
+                                <img src="image/kakao.png" width="41" height="41">
+                                <a href="https://accounts.kakao.com/login/?continue=https%3A%2F%2Fkauth.kakao.com%2Foauth%2Fauthorize%3Fcode%3Dcode%26encode_state%3D1%26response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fwww.jakomo.co.kr%253A443%252Fmember%252Fkakao%252Fkakao_login.php%26state%3D%257B%2522kakaoType%2522%253A%2522login%2522%252C%2522returnUrl%2522%253A%2522https%253A%252F%252Fwww.jakomo.co.kr%252Fmember%252Ffind_password.php%2522%252C%2522referer%2522%253A%2522https%253A%252F%252Fwww.jakomo.co.kr%252Fmember%252Flogin.php%2522%257D%26through_account%3Dtrue%26client_id%3Dab7e4a6e51ca303a4abd768cd3009c7e">카카오 아이디 로그인</a>
+                            </li>
+                        </ul>
+                    </div>
+                </form>
+            <div class="order-search">
+                <h3>비회원 주문조회 하기</h3>
+                <p>주문자명과 주문번호를 입력해주세요</p>
+            </div>
+            <form action="login.html" name="post" id="search-frm">
+                <div class="search-box">
+                    <input type="text" name="order-name" placeholder="주문자명" value="">
+                    <input type="password" name="order-no" placeholder="주문번호" value="">
+                </div>
+                <div class="btn-box">
+                    <input type="submit" value="주문조회">
+                    <p>!주문번호와 비밀번호를 잊으신 경우, 고객센터로 문의하여 주시기 바랍니다.</p>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <!-- content 영역 입니다.-->
+
+    </div>
+    <div class="bottom-wrap">
+        <div class="bottom-menu-wrap">
+            <div class="bottom-menu">
+                <ul>
+                    <li class="bottom-menu-button"><a href="#">회사소개</a></li>
+                    <li class="bottom-menu-button"><a href="promotion.html">광고/제휴문의</a></li>
+                    <li class="bottom-menu-button"><a href="#">개인결제창</a></li>
+                    <li class="bottom-menu-button"><a href="#">샘플신청</a></li>
+                    <li class="bottom-menu-button"><a href="#">무이자할부안내</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-info-wrap" style="clear: both;">
+            <div calss="info-left" style="width: 50%;"><img src="images/logo_white.png" width="200px">
+                <p class="info_gray">경기도 남양주시 오남읍 진건오남로929번길 8 (경기도 남양주시 오남읍 양지리 699-5)</p>
+                <p class="info_gray">법인명(상호) : (주)자코모 대표 : 박경분 사업자등록번호 : 132-81-62165 사업자번호조회 통신판매업신고번호 : 2020-진접오남-0219</p>
+                <p class="info_gray">개인정보보호책임자 : 박유신 대표번호 : <b>1588-6007</b> 팩스번호 : 031-527-8618</p>
+            </div>
+            <div calss="info-center" style="width: 25%;">
+                <p class="info_gray_big">고객센터</p>
+                <p class="info_white_big">1588-6007</p>
+                <p class="info_white">평일 09:00 ~ 17:30</p>
+                <p class="info_white">점심 12:00 ~ 13:00</p>
+                <p class="info_gray">* 주말, 공휴일은 휴무 입니다.</p>
+                <p class="info_gray">* 1월 1일, 명절(설, 추석)전날, 당일 제외 연중무휴</p>
+            </div>
+            <div calss="info-right" style="width: 25%;">
+                <p class="info_gray_big">계좌번호</p>
+                <p class="info_white_big">164-910017-44504</p>
+                <p class="info_white">은행 하나은행</p>
+                <p class="info_white">예금주 ㈜자코모</p>
+                <p class="info_gray">* 입금 시 주문하신 분 성함 반드시 기재</p>
+            </div>
+        </div>
+    </div>
+    <div calss="footer-wrap">
+        <div class="footer-bottom">
+            <div class="copyright">Copyright (c) 2023 JAKOMO Co,. Ltd All Rights Reserved.</div>
+            <div class="footer-menu"><a href="#"><b>이용약관</b></a> | <a href="#">이용안내</a> | <a href="#">개인정보처리방침</a></div>
+        </div>
+    </div>
+</body>
+
+</html>
