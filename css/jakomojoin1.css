@@ -1,0 +1,118 @@
+body{
+    padding-bottom: 100px;
+}
+.join-box:hover{
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+}
+.join-box>a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.memberbenefit>img{
+    width: 100%;
+    margin: 0 auto;
+}
+.content {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.snstitle{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.join{
+    padding: 30px;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+.join>h1{
+    text-align: center;
+}
+.content{
+}
+.join-box{
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #aba135;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.membershipjoin{
+    width: 600px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.sns-box{
+    overflow: hidden;
+}
+#sns{
+    width: 60px;
+    height: 60px;
+    border-radius: 20deg;
+    float: left;
+    overflow:hidden;
+    border-radius: 20%;
+    cursor:pointer;
+}
+.snsimg{
+    overflow:hidden;
+    cursor:pointer;
+    margin-bottom: 10px;
+}
+
+.snsimg>p{
+    margin: 0;
+    float: left;
+    width: 540px;
+    height: 60px;
+    background-color:lightgray;
+    box-sizing: border-box;
+    line-height: 60px;
+    border-radius: 10px;
+}
+#strong{
+    width:30px;
+    height:30px;
+    float: left;
+    margin-left:20px;
+}
+.strongnotice{
+    text-align: center;
+    line-height: 20px;
+}
+.current-member>span{
+    color: #aba135;
+    font-weight: bold;
+}
+input[name=로그인]{
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    cursor: pointer;
+}
+input[name=로그인]:hover{
+    text-decoration: underline;
+}
+
+.login-button>a{
+    text-decoration: none;
+    color: black;
+}
+.memberbercheck-login{
+    float:left;
+    overflow: hidden;
+}
+.login {
+    text-decoration: none;
+    color: black;
+}

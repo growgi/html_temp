@@ -1,0 +1,100 @@
+.agree-wrap{
+    width:600px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.this{
+    font-weight: bolder;
+    text-decoration: underline;s
+}
+.allagree-check{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 auto;
+    margin-top:20px;
+}
+.alarm{
+    padding: 5px;
+    font-size:12px;
+    margin-left:20px;
+    color:dimgray;
+    margin-bottom: 30px;
+}
+.agree-title>h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.process>ul{
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    width: 600px;
+    overflow: hidden;
+    background-color: #aba135;
+    color: #FFF;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+
+.process>ul>li{
+    width: calc(100%/4);
+    box-sizing: border-box;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    margin: 0px 20px;
+    text-align: center;
+}
+.agree-explain{
+    border: 1px solid darkgrey;
+    width: 100%;
+    margin: 15px auto;
+    height: 150px;
+    overflow: auto;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size:13px;
+}
+input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+}
+.bfaf-button{
+    overflow: hidden;
+    width: 90%
+}
+.bfaf-button>a{
+    width: 250px;
+    height: 40px;
+    border: none;
+    font-size: 18px;
+    box-sizing: border-box;
+    cursor: pointer;
+    float:left;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    border: rgb(172, 170, 170) 1px solid;
+    line-height: 40px;
+}
+
+.bfaf-button>a:first-child{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: transparent; 
+}
+.bfaf-button>a:first-child:hover{
+    background-color: gainsboro;
+    color: black; 
+}
+.bfaf-button>a:last-child{
+    background-color: #aba135;
+    color: #fff;
+}
+.bfaf-button>a:last-child:hover{
+    background-color: white;
+    color: black;
+}

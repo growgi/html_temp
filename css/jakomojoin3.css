@@ -1,0 +1,152 @@
+.join-wrap{
+    width:600px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+[for="nickname"]{
+    padding-left:10px;
+}
+[for="recommender"]{
+    padding-left: 10px;
+}
+input[name=address]{
+    margin-top: 5px ;
+}
+.list{
+    padding: 1px 2px 1px 5px;
+}
+.process>ul{
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    width: 600px;
+    overflow: hidden;
+    background-color: #aba135;
+    color: #FFF;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px; 
+}
+.sch-btn{
+    height:30px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px #ccc;
+    cursor:pointer;
+}
+
+.process>ul>li{
+    width: calc(100%/4);
+    box-sizing: border-box;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    margin: 0px 20px;
+    text-align: center;
+}
+
+.agree-title>h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.join-input-wrap{
+    margin: 5px;
+    overflow: hidden;
+}
+.this{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.join-input-wrap>div{
+    float: left;
+}
+.join-input-wrap select{
+    outline : auto #ccc;
+}
+.join-input-wrap input{
+    padding-left: 5px;
+    border: 1px solid #ccc;
+}
+.short-input{
+    height:25px;
+    width: 120px;
+
+}
+.mid-input{
+    height:25px;
+    width: 220px;
+}
+
+.long-input{
+    height:25px;
+    width: 300px;
+}
+.birthday{
+    height:28px;
+    width: 150px;
+}
+.email-choice{
+    height:28px;
+    width: 100px;
+}
+input::placeholder{
+    padding-left: 10px;
+}
+label{
+    display: inline-block;
+    width: 120px;
+}
+input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+}
+.sms-check{
+    margin-left: 140px;
+}
+.bfaf-button{
+    overflow: hidden;
+    width: 100%
+}
+.bfaf-button>a{
+    width: 250px;
+    height: 40px;
+    border: none;
+    font-size: 18px;
+    box-sizing: border-box;
+    cursor: pointer;
+    float:left;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    border: rgb(172, 170, 170) 1px solid;
+    line-height: 40px;
+}
+
+.red{
+    font-size: 11px;
+    color: rgb(255, 72, 0);
+}
+.memo{ 
+    box-sizing: border-box;
+    padding-left: 140px;
+    font-size: 11px;
+    color: rgb(255, 72, 0);
+}
+.bfaf-button>a:first-child{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: transparent; 
+}
+.bfaf-button>a:first-child:hover{
+    background-color: gainsboro;
+    color: black; 
+}
+.bfaf-button>a:last-child{
+    background-color: #aba135;
+    color: #fff;
+}
+.bfaf-button>a:last-child:hover{
+    background-color: white;
+    color: black;
+}
