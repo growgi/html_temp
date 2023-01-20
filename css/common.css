@@ -11,6 +11,25 @@ input {
     outline: none;
 }
 
+#gototop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#gototop:hover {
+    background-color: red;
+}
+
 body>div {
     overflow: hidden;
 }
