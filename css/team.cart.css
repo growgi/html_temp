@@ -1,0 +1,239 @@
+.content{
+    width: 1200px;
+    margin: 0 auto;
+  
+}
+.order-main{
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+.order-main>h2{
+    display: inline;
+
+}
+.order-main>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.order-main>ul>li{
+    float:left;
+    height: 40px;
+    line-height: 40px;
+}
+.text-color{
+    color: #d1d1d1;
+}
+img{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+table{
+    margin-top: 20px;
+    border-top: 1px solid #ddd;  
+    border-spacing: 0;
+ 
+}
+th{
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+ 
+
+}
+td{
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+   
+}
+.border{
+    border-right: none;
+}
+/*상품/옵션 정보*/
+.order-pick{
+    overflow: hidden;
+}
+.order-image>img{
+    float: left;
+    padding-bottom: 20px;
+}
+.order-info>.order-coupon>img{
+    margin: 0;
+}
+.order-info>em>a{
+    color: #666;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+}
+.order-info>div>.text{
+    color: #666;
+    font-size: 12px;
+}
+/*수량*/
+.order-btn{
+    text-align: center;
+}
+.order-btn>a{
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #dbdbdb;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    color: #333;
+    font-size: 12px;
+}
+.order-count{
+    color: #333333;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+/*상품금액*/
+.order-price{
+    text-align: center;
+    color: #333333;
+    font-size: 14px;
+}
+/*배송*/
+.order-delivery{
+    text-align: center;
+    font-size: 12px;
+    color: #777777;
+
+}
+
+.order-table-bottom{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.order-table-bottom a{
+    font-size: 12px;
+    color: #777777;
+}
+
+.order-total-box{
+    width: 1200px;
+    height: 100px;
+    border: 1px solid #dcdcdc;
+    overflow: hidden;
+    
+}
+.order-total-list{
+    float: right;
+    margin: 25px;
+
+    overflow: hidden;
+}
+
+.product-sum{
+    float: left;
+    text-align: center;
+    font-size: 14px;
+  
+}
+.delivery{
+    float: left;
+    text-align: center;
+    font-size: 14px;
+
+}
+.product-price{
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    
+} 
+.operator-img{
+    float: left;;
+    padding: 10px;
+
+}
+
+.order-left-box{
+    float: left;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.order-btn-del{
+
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    
+}
+.order-btn-del>button{
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 10px;
+    color: #626262;
+   border: 1px solid #a3a3a3;
+   background-color: white;
+   cursor: pointer;
+
+}
+.order-btn-wish{
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.order-btn-wish>button{
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 10px;
+    color: #626262;
+    border: 1px solid #a3a3a3;
+    background-color: white;
+    cursor: pointer;
+}
+
+.order-right-box{
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.order-btn-choice-buy{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.order-btn-choice-buy>button{
+    width: 190px;
+    height: 45px;
+    border: 1px solid #cccccc;
+    color: #3e3d3c;
+    background-color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+}
+.order-btn-whole-buy{
+    float: right;
+    margin-top: 10px;
+
+}
+.order-btn-whole-buy>button{
+  width: 190px;
+    height: 45px;
+    border: 1px solid #cccccc;
+    color: #ffffff;
+    background-color: #383838;
+    font-size: 13px;
+    cursor: pointer;
+}
+.order-btn-choice-buy>button:hover{
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+
+}
+.order-btn-whole-buy>button:hover{
+    background-color: #fff;
+    border: 1px solid #cccccc;
+    color: #3e3d3c;
+
+}

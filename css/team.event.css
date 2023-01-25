@@ -1,0 +1,124 @@
+.content{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
+.event-main{
+    font-size: 16px;
+
+}
+.event-box{
+    width: 600px;
+    margin: 70px auto;
+    text-align: center;
+}
+.event-box>input{
+    width: 200px;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+.event-box>input:hover{
+    background-color: #aba000;
+    color: #fff;
+}
+.event-info{
+  width: 280px;
+  text-align: center;
+  
+}
+.event-info a{
+    font-size: 12px;
+    text-decoration: none;
+    color:black;
+    text-overflow: ellipsis;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 15px;
+ 
+}
+
+.event-info a:hover{
+    border-bottom: 1px solid rgb(148, 145, 145);
+}
+.event-info div{
+    width: 300px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 5px;
+}
+.event-img-list{
+
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.event-img{
+    width: 300px;
+    float: left;
+    box-sizing: border-box;
+    padding: 0px 10px; /*20이 남으므로.. 좌우 10 10*/
+}
+.pagination{
+    width: 70px;
+    margin: 20px auto;
+}
+.pagination>ul{
+    list-style-type: none;
+    text-align: center;
+}
+.number{
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #aba000;
+    background-color: #aba000;
+    border-radius: 2px;
+ 
+}
+.form{
+    width: 385px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.search-box{
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: #fafafa;
+    margin-bottom: 50px;
+   
+}
+.choice-box{
+    box-sizing: border-box;
+    float: left;
+    margin-right: 10px ;
+}
+.cho{
+    color: #717171;
+}
+.input-box{
+    box-sizing: border-box;
+    float: left;
+    margin-right: 10px ;
+}
+.btn-box{
+    box-sizing: border-box;
+    float: left;
+}
+.btn{
+ background-color:#383838 ;
+ border: none;
+ font-weight: bold;
+ color: #fff;
+}
+.btn:hover{
+    color: #383838;
+    background-color: #fff;
+    border: 1px solid #383838;
+}
